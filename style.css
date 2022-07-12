@@ -1,0 +1,154 @@
+
+*{
+    box-sizing:border-box ;
+    margin: 0px;
+}
+@font-face{
+    font-family:'font' ;
+    src: url(../Fonts/Font2.ttf);
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* nav*/
+
+.navcontainer > li{
+    position:relative;
+    display:inline-block;
+}
+.navcontainer{
+    
+}
+.navcontainer li a:hover{
+    color: #724722;
+    transition: all 0.5s;
+}
+.cartamenu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    width: 16%;
+}
+.cartamenu li a{
+    display: block;
+    padding: 10px;
+    color: #000;
+}
+.navcontainer li :hover .cartamenu{
+    display: block;
+}   
+/* header sin nav*/
+header{
+    background-image: url(images/fondo.png);
+    margin-top: 0px;
+}
+.logocontainer{
+    height: 140px;
+    margin: 0px 20px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 6px;
+}
+.name{
+    color: white;
+    font-size: 31px;
+    text-align: center;
+    padding: 6px;
+    margin: 11px 0px;
+    
+}
+.name-2{
+    text-shadow:  0px 1px 9px  #fff;
+    font-size: 19px;
+    text-align: center;
+    padding: 16px 5px 5px 5px;
+    margin-top: -19px;
+}
+.na{
+    width: 500px;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+.menu {
+    font-size: 20px;
+    padding: px;
+}
+.menu a{
+    color: white;
+}
+.img{
+    border: 1px solid white;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 0px;
+    background-color: aliceblue;
+}
+.titlecontainer{
+    display: block;
+    height: 60px;
+    background-image: url(images/fondo.png);
+    text-align: center;
+    margin: 10px;
+}
+.title{
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+    color: #fff;
+    font-family:'font' ;
+}
+.container{
+    height: 250px;
+    margin-top: 50px;
+}
+.containermenu{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+.container__menu-2{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.option{
+    outline: 10px #a56833 outset;
+}
+
+button{
+    background-color:white;
+    text-shadow: 2px 3px 5px #724722;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    outline:  5px inset #a56833;
+    margin: 5px;
+}
+
+.tabla__container{
+    border: #724722 1px solid;
+    width: 100%;
+    text-align: center;
+    background-color: #724722;
+}
+.tabla{
+    background-image: url(https://www.wikihow.com/images/6/6d/Make-a-Mushroom-Omelette-Step-15-Version-2.jpg);
+    border: #724722 1px solid;
+    display:flex;
+    flex-direction: column;
+}
+
+td{
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+}
